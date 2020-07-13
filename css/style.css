@@ -123,7 +123,29 @@ img{
     padding-left: 30px;
 }
 
+.column{
+    float: left;
+}
 
+.img{
+    display: block;
+}
+
+.cap{
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+figure{
+    display: inline-block;
+    float: left;
+}
+
+figcaption{
+    text-align: center;
+    color: white;
+}
 /*footer */
 
 #myFooter {
