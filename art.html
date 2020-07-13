@@ -41,17 +41,32 @@
        <center><h3>I draw</h3></center>
        <center><h3>sometimes</h3></center>
        <hr>
-       <div class="gallery">
-  <div class="img-w">
-    <img src="imgs/alice.png" alt="" /></div>
-  <div class="img-w"><img src="imgs/alita3.png" alt="" /></div>
-  <div class="img-w"><img src="imgs/aqua1.png" alt="" /></div>
-  <div class="img-w"><img src="imgs/hitomi%20chan.png" alt="" /></div>
-  <div class="img-w"><img src="imgs/mugi1.png" alt="" /></div>
-  <div class="img-w"><img src="imgs/rio_futaba.png" alt="" /></div>
-  <div class="img-w"><img src="imgs/saikik2.png" alt="" /></div>
-  <div class="img-w"><img src="imgs/tatsumaki.png" alt="" /></div>
-  <div class="img-w"><img src="imgs/witch1.png" alt="" /></div>
+       <div class="container">
+	<div class="gallery">
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr01/original-9161-1439317330-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr08/original-1654-1439317465-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />		
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr08/original-13354-1439321173-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr04/original-25740-1439321209-5.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr08/original-9292-1439319916-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr05/original-6710-1439319334-17.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr02/original-16901-1439320287-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr04/original-29345-1439321306-8.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+		<img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/15/enhanced/webdr15/original-20286-1439320376-10.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr02/original-6989-1439317507-15.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr11/original-8867-1439317446-6.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/11/14/enhanced/webdr03/original-22498-1439319085-3.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="" width="100%" height="auto" class="gallery-img" />
+	</div> 
+</div>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+      </div>
+    </div>
+  </div>
 </div>
        
        
@@ -83,12 +98,20 @@
 <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-    <script src="script1.js"></script>
     <script  src="./script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".gallery-img").click(function(){
+                var t = $(this).attr("src");
+                $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+                $("#myModal").modal();
+            });
+        });
+    </script>
 
 
-<div id="preloader">
-  <div id="status">&nbsp;</div>
-</div>
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
     </body>
 </html>

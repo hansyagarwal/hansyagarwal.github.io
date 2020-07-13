@@ -110,6 +110,18 @@ body{
     background-color: #323333;
 }
 
+h2{
+    color: white;
+}
+
+img{
+    margin-right: 50px;
+}
+
+.skill-color{
+    color: white;
+    padding-left: 30px;
+}
 
 
 /*footer */
