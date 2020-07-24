@@ -127,6 +127,12 @@ img{
     float: left;
 }
 
+.column img{
+    width: 100px;
+    max-width: 100%;
+    height: auto
+}
+
 * {
   box-sizing: border-box;
 }
