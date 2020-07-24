@@ -114,25 +114,36 @@ h2{
     color: white;
 }
 
-img{
-    margin-right: 95px;
-}
-
 .skill-color{
     color: white;
     padding-left: 30px;
 }
 
-.column{
-    float: left;
+.card{
 }
 
-.column img{
-    width: 95px;
+.card img{
+    margin: 0 auto;
     max-width: 100%;
+    width: 100px;
     height: auto;
-    vertical-align:middle;
-    margin:0px 50px
+    
+    
+}
+
+.cards{
+    max-width: 1200px;
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(6, 1fr); }
 }
 
 * {
