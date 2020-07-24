@@ -232,6 +232,27 @@ body{
      margin-left: 140px;   
 }
 
+.card img{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+}
+
+.cards{
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
 .column img{
     
 }
