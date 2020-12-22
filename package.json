@@ -4,7 +4,8 @@
   "description": "Work in progress\r move on for now",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass sass/main.scss css/newStyle.css -w"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/hansyagarwal/hansyagarwal.github.io/issues"
   },
-  "homepage": "https://github.com/hansyagarwal/hansyagarwal.github.io#readme"
+  "homepage": "https://github.com/hansyagarwal/hansyagarwal.github.io#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
