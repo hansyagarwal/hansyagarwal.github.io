@@ -1,0 +1,7 @@
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #21242d url(../imgs/ezgif-7-8448fb474c0b.gif) no-repeat center;
+  z-index: 999;
+  display: none; }
