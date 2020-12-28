@@ -28,3 +28,9 @@ body {
   background: #21242d url(../imgs/ezgif-7-8448fb474c0b.gif) no-repeat center;
   z-index: 999;
   display: none; }
+
+.container {
+  margin: 8rem auto;
+  max-width: 120rem;
+  background-color: #F0F7F4;
+  height: 90vh; }
