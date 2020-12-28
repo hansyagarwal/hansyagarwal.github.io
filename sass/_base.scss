@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+$color-green : #0B3C49;
+$color-blood: #601700;
+$color-red: #A72608;
+
+$color-font: #A1B0AB;
+$color-silver: #84828F;
+$color-lavendar: #6A687A;
+
+$color-background-1: #001524;
+$color-background-2: #102330;
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $color-font;
+    background-image: linear-gradient(to right bottom, $color-background-2, $color-background-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
