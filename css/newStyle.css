@@ -29,8 +29,16 @@ body {
   z-index: 999;
   display: none; }
 
+.user-photo-1 {
+  height: 7rem; }
+
 .container {
   margin: 8rem auto;
   max-width: 120rem;
   background-color: #F0F7F4;
   height: 90vh; }
+
+.header {
+  height: 7rem;
+  background-color: blueviolet;
+  display: flex; }
