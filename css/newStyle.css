@@ -38,6 +38,24 @@ body {
   .user-contacts__icon-photo {
     width: 5rem; }
 
+.side-nav {
+  font-size: 1.5rem;
+  list-style: none;
+  margin-top: 1.5rem 2rem; }
+  .side-nav__item {
+    position: relative; }
+  .side-nav__link {
+    color: #A1B0AB;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    position: relative; }
+  .side-nav__link:visited, .side-nav__link:link {
+    text-decoration: none; }
+  .side-nav__icon {
+    width: 5rem;
+    margin-right: 2rem; }
+
 .container {
   margin: 8rem auto;
   max-width: 120rem;
@@ -45,7 +63,7 @@ body {
 
 .header {
   height: 7rem;
-  background-color: #601700;
+  background-color: #F0F7F4;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -54,10 +72,10 @@ body {
   display: flex; }
 
 .sidebar {
-  background-color: #601700;
+  background-color: #A72608;
   flex: 0 0 20%;
   display: flex; }
 
 .aboutme {
-  background-color: #A72608;
+  background-color: #F0F7F4;
   flex: 1; }

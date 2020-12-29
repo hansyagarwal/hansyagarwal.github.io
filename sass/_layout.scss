@@ -8,7 +8,7 @@
 
 .header{
     height: 7rem;
-    background-color: $color-blood;
+    background-color: $color-background-3;
 
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 }
 
 .sidebar {
-    background-color: $color-blood;
+    background-color: $color-red;
     flex: 0 0 20%;
     display: flex;
     //height: 20rem;
@@ -28,7 +28,7 @@
 }
 
 .aboutme {
-    background-color: $color-red;
+    background-color: $color-background-3;
     flex: 1;
     //height: 20rem;
 }

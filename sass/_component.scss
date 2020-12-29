@@ -22,3 +22,33 @@
         }
     }
 }
+
+.side-nav {
+    font-size: 1.5rem;
+    list-style: none;
+    margin-top: 1.5rem 2rem;
+
+    &__item {
+        position: relative;
+        
+    }
+
+    &__link {
+        color: $color-font;
+        display: flex;
+        align-items: center;
+        padding: 1.5rem 3rem;
+        position: relative;
+    }
+
+    &__link:visited,
+    &__link:link {
+        text-decoration: none;
+    }
+
+    &__icon {
+        width: 5rem;
+        margin-right: 2rem;
+    }
+
+}
