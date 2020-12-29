@@ -32,6 +32,12 @@ body {
 .user-photo-1 {
   height: 7rem; }
 
+.user-contacts {
+  display: flex;
+  margin-right: 2rem; }
+  .user-contacts__icon-photo {
+    width: 5rem; }
+
 .container {
   margin: 8rem auto;
   max-width: 120rem;
@@ -41,4 +47,6 @@ body {
 .header {
   height: 7rem;
   background-color: blueviolet;
-  display: flex; }
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }

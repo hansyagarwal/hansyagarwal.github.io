@@ -12,4 +12,13 @@
     &-photo-1 {
         height: 7rem;
     }
+
+    &-contacts {
+        display: flex;
+        margin-right: 2rem;
+
+        &__icon-photo {
+            width: 5rem;
+        }
+    }
 }
