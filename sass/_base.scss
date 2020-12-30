@@ -14,12 +14,16 @@ $color-blood: #601700;
 $color-red: #A72608;
 
 $color-font: #A1B0AB;
+$color-font-2: #FFFFFF;
 $color-silver: #84828F;
 $color-lavendar: #6A687A;
 
 $color-background-1: #001524;
 $color-background-2: #102330;
 $color-background-3: #F0F7F4;
+$color-background-4: #4B3B40;
+
+$color-shadow: 0 2rem 6rem rgba(0,0,0,.3);
 
 html{
     box-sizing: border-box;
@@ -31,7 +35,7 @@ body {
     font-weight: 400;
     line-height: 1.6;
     color: $color-font;
-    background-image: linear-gradient(to right bottom, $color-background-2, $color-background-1);
+    background-image: linear-gradient(to right bottom, $color-red, $color-blood);
     background-size: cover;
     background-repeat: no-repeat;
 

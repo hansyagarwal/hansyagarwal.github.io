@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #A1B0AB;
-  background-image: linear-gradient(to right bottom, #102330, #001524);
+  background-image: linear-gradient(to right bottom, #A72608, #601700);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
@@ -30,7 +30,9 @@ body {
   display: none; }
 
 .user-photo-1 {
-  height: 7rem; }
+  height: 6rem;
+  border-radius: 50%;
+  margin-left: 7rem; }
 
 .user-contacts {
   display: flex;
@@ -45,7 +47,7 @@ body {
   .side-nav__item {
     position: relative; }
   .side-nav__link {
-    color: #A1B0AB;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     padding: 1.5rem 3rem;
@@ -59,23 +61,30 @@ body {
 .container {
   margin: 8rem auto;
   max-width: 120rem;
-  background-color: #F0F7F4; }
+  background-image: linear-gradient(to bottom right, #A72608, #601700);
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  min-height: 50rem; }
 
 .header {
   height: 7rem;
   background-color: #F0F7F4;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  border-bottom: 1px solid #84828F;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
 
 .content {
   display: flex; }
 
 .sidebar {
-  background-color: #A72608;
+  background-color: #102330;
   flex: 0 0 20%;
-  display: flex; }
+  display: flex;
+  border-bottom-left-radius: 10px; }
 
 .aboutme {
   background-color: #F0F7F4;
-  flex: 1; }
+  flex: 1;
+  border-bottom-right-radius: 10px; }

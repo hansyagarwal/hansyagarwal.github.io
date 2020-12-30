@@ -1,18 +1,21 @@
 .container{
     margin: 8rem auto;
     max-width: 120rem;
-    background-color: $color-background-3;
+    background-image: linear-gradient(to bottom right, $color-red, $color-blood);
+    box-shadow: $color-shadow;
     //height: 90vh;
-
+    min-height: 50rem;
 }
 
 .header{
     height: 7rem;
     background-color: $color-background-3;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid $color-silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .content {
@@ -20,15 +23,17 @@
 }
 
 .sidebar {
-    background-color: $color-red;
+    background-color: $color-background-2;
     flex: 0 0 20%;
     display: flex;
     //height: 20rem;
+    border-bottom-left-radius: 10px;
 
 }
 
 .aboutme {
     background-color: $color-background-3;
     flex: 1;
+    border-bottom-right-radius: 10px;
     //height: 20rem;
 }
