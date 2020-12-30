@@ -76,3 +76,68 @@
     }
 
 }
+
+.aboutme{
+    &__content {
+        margin: 4rem 4rem;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+    }
+
+    &__greeting, &__para{
+        padding: 1rem 3rem;
+        position: relative;
+        transition: all .2s;
+        display: inline-block;
+    }
+
+    &__inc:link,
+    &__inc:visited{
+        color: whitesmoke;
+        text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .2s;
+    }
+
+    &__inc:hover,
+    &__inc:active {
+        position: absolute;
+        box-shadow: 0 1rem 2rem rgba(black, .4);
+        transform: rotate(5deg) scale(1.3);
+        background-color: $color-red;
+    }
+}
+
+.skills{
+
+    &__content {
+        margin: 4rem 4rem;
+    }
+
+    &__greeting{
+        display: flex;
+        flex-direction: row;
+        //justify-content: space-between;
+        align-items: center;
+
+        &--icon {
+            width: 5rem;
+        }
+    }
+
+    &__photos {
+        margin-top: 3rem;
+    }
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+
+        &--photo {
+            width: 100px;
+        }
+    }
+}

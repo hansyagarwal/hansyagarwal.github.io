@@ -33,9 +33,13 @@
 
 }
 
-.aboutme {
+.main {
     background-color: $color-background-1;
     flex: 1;
     border-bottom-right-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    //display: flex;
+    //flex-direction: column;   
     //height: 20rem;
 }
