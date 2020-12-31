@@ -113,10 +113,25 @@ body {
 .skills__row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 3rem; }
+  .skills__row:not(:last-child) {
+    justify-content: space-between; }
   .skills__row--photo {
     width: 100px; }
+
+.projects__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4rem 4rem; }
+
+.projects__card {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 2rem 2rem; }
+  .projects__card:not(:last-child) {
+    margin-right: 2rem; }
 
 .container {
   margin: 8rem auto;

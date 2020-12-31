@@ -131,13 +131,38 @@
     }
 
     &__row {
+
+       
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+        &:not(:last-child)
+        {
+            justify-content: space-between;
+        }
+        &--photo {
+            width: 100px;
+        }
+    }
+}
+
+.projects {
+    &__row {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 3rem;
+        margin: 4rem 4rem;
+    }
 
-        &--photo {
-            width: 100px;
+    &__card {
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        padding: 2rem 2rem;
+
+        &:not(:last-child) {
+            margin-right: 2rem;
         }
     }
 }
